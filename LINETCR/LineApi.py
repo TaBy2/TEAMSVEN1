@@ -520,24 +520,24 @@ class LINE:
 
       prof = self.getProfile()
 
-      print("==============[ S A T A N ]==============")
-      print("By'Moddark")
-      print("TeamModDark")
-      print("===========================================")
-      print "....*..love..*"
-      print "...*..lovelo...*"
-      print "..*.lovelovelo....*.........*...*"
-      print ".*..lovelovelovelov *...*..lovel...*"
-      print ".*..lovelovelovelo....*..lovelovelo.*"
-      print "*.. lovelovelovelo...*..lovelovelo.*"
-      print ".*..lovelovelove........lovelovelo.*"
-      print "..*..lovelovelovelovelovelovelo...*"
-      print "...*...lovelolovelovelovelove..*"
-      print "....*...lovelovelovelovelo....*"
-      print ".....*...lovelovelovelo....*"
-      print "......*...lovelovelo....*"
-      print ".......*..lovelove....*"
-      print "........*..love....*"
+      print("==============[ S V E N ]==============")
+      print("ByTaby")
+      print("Teamsven")
+      print("=======================================")
+      print "....*..sve..*"
+      print "...*..svens...*"
+      print "..*.svensven....*.........*...*"
+      print ".*..svensvensvensve *...*..svens...*"
+      print ".*..svensvensvensv....*..svensvensv.*"
+      print "*.. svensvensvensv...*..svensvensv.*"
+      print ".*..svensvensven........svensvensv.*"
+      print "..*..svensvensvensvensvensvensv...*"
+      print "...*...svensvensvensvensvensv..*"
+      print "....*...svensvensvensvensv....*"
+      print ".....*...svensvensvensv....*"
+      print "......*...svensvensv....*"
+      print ".......*..svensven....*"
+      print "........*..sven....*"
       print "..........*....*"
       print("MID : " + prof.mid)
       print("NAME : " + prof.displayName)
