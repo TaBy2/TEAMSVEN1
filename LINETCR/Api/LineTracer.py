@@ -28,9 +28,9 @@ class LineTracer(object):
     def execute(self):
         try:
             operations = self.client.fetchOperation(self.client.revision, 10)
-            #print "======================================================="
+            #print "*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*"
             # print operations
-            #print "======================================================="
+            #print "*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*"
         except EOFError:
             return
         except KeyboardInterrupt:
@@ -40,9 +40,9 @@ class LineTracer(object):
 
         for op in operations:
             if op.type in self.OpInterrupt.keys():
-                #print "======================================================="
+                #print "*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*"
                 #print str(op.type) + "[" + str(op) + "]"
-                #print "======================================================="
+                #print "*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*"
                 self.OpInterrupt[op.type](op)
 
             self.client.revision = max(op.revision, self.client.revision)
